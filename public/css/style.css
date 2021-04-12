@@ -1,0 +1,32 @@
+.square{
+    height: 100px;
+    width: 100%;
+}
+
+
+@media (min-width: 320px) and (max-width:600px){
+.square{
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+    border: 5px solid black;
+}
+}
+
+@media (min-width: 601px) and (max-width:1024px){
+    .square{
+        height: 100px;
+        width: 66%;
+        background-color: red;
+        border: 5px solid yellow;
+    }
+    }
+
+    @media (min-width: 1025px){
+        .square{
+            height: 100px;
+            width: 33%;
+            background-color: blue;
+            border: 5px solid green;
+        }
+        }
